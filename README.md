@@ -1,10 +1,8 @@
 # Project Overview
-- Built the python machine learning model predicting tomorrow’s S&P 500 index price data from yfinance package
-- Trained a random forest model and used back testing on 20+ years of data with about 57% precision score
+In this project, I predicted the price of the S&P500 stock market index. 
 
-1. Downloaded some stock data (S&P 500 index)
-2. Cleaned and Visualized data
-3. Set up machine learning target
-4. Trained our initial model
-5. Evaluated the error over the long period of time and created a way to do back-test
-6. Improved the model with extra predictive column
+## Project Steps
+  1. Download data using the yfinance package
+  2. Create an initial machine learning model and estimate accuracy
+  3. Build a backtesting engine to more accurately measure accuracy
+  4. Improve the accuracy of the model
